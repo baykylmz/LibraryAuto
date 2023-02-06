@@ -4,6 +4,7 @@
 Subject: In this project, a small-scale and file-based Library Automation application will be implemented based on the working logic of relational databases.
 
 Functional Requirements:
+
 1- Author Add/Delete/Edit/List Operations: The name and surname of each author, and the authorID information that will be automatically increased (1, 2, .., N) with each new author record, must be stored in a ONE-WAY LINKED LIST ordered by the authorID value in a file called Authors.csv. The information collected from the user for authors and stored in the file can be deleted or corrected if requested and the latest version must be found in the same file.
 
 2- Student Add/Delete/Edit/List Operations: Each student must have a name, surname, library score of 100 at the beginning, and a unique 8-digit student number. The information about students must be stored in a TWO-WAY LINKED LIST and in a file named Students.csv, defined by the struct structure within the application. The stored information can be deleted or corrected if requested and the latest version must be found in the same file.
