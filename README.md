@@ -25,6 +25,7 @@ NOTE 2: If a book is returned more than 15 days after it was borrowed, the stude
 NOTE 3: During book borrowing processes, if all copies of a book have been borrowed by other students, a FAILED TRANSACTION warning should be issued.
 
 Required menus in the program:
+
 STUDENT OPERATIONS:
 - Add, Delete, Update Student: All information related to the student should be taken from the user, and Add/Delete/Update operations should be performed separately on files and linked lists.
 - View Student Information: The personal information of the student (Name, Surname, ID, Score, etc.) and all book transactions should be listed based on the ID information or Name-Surname information received from the user.
@@ -32,6 +33,7 @@ STUDENT OPERATIONS:
 - List Punished Students:
 - List All Students:
 - Borrow/Return Book
+
 BOOK OPERATIONS:
 - Add, Delete, Update Book: All information related to the books should be taken from the user, and Add/Delete/Update operations should be performed separately on files and linked lists.
 - View Book Information: All information about each book and its sample copies based on the Book Name information received from the user should be listed.
@@ -39,6 +41,7 @@ BOOK OPERATIONS:
 - List Books Not Returned on Time:
 - Match Book-Author: The related file and struct array should be updated.
 - Update Book's Author: The related file and struct array should be updated.
+
 AUTHOR OPERATIONS:
 - Add, Delete, Update Author: All information related to the authors should be taken from the user, and Add/Delete/Update operations should be performed separately on files and linked lists.
 - View Author Information: All information about each author and all information about the books related to this author based on the Author Name information received from the user should be listed.
